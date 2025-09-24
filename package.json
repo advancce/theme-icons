@@ -1,26 +1,31 @@
 {
-"name": "advancee-theme",
-"displayName": "Advancee Theme",
-"publisher": "seu-publisher",
-"version": "0.0.1",
-"engines": {
-"vscode": "^1.70.0"
-},
-"categories": ["Themes"],
-"contributes": {
-"themes": [
-{
-"label": "Advancee Theme - Dark",
-"uiTheme": "vs-dark",
-"path": "./themes/advancee-theme.json"
-}
-],
-"iconThemes": [
-{
-"id": "advancee-icon-theme",
-"label": "Advancee Icon Theme",
-"path": "./icons/icon-theme.json"
-}
-]
-}
+  "name": "advancee-theme",
+  "displayName": "Advancee Theme",
+  "publisher": "seu-username-ou-nome-do-publisher",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/advancce/theme-icons.git"
+  },
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Advancee Theme - Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/advancee-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "advancee-icon-theme",
+        "label": "Advancee Icon Theme",
+        "path": "./icons/icon-theme.json"
+      }
+    ]
+  }
 }
