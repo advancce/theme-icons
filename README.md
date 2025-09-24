@@ -33,12 +33,3 @@ code --install-extension advancee-theme-0.0.1.vsix
 
 ---
 
-Se você quiser, posso criar **uma versão ainda mais chamativa** com:  
-- Badges (versão, downloads, compatibilidade)  
-- Screenshot de pré-visualização do tema  
-- Instruções de instalação mais destacadas  
-
-Isso deixa seu README **profissional e pronto para o GitHub**.  
-
-Quer que eu faça essa versão aprimorada?
-```bash
