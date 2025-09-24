@@ -1,0 +1,43 @@
+{
+"iconDefinitions": {
+"file_default": { "iconPath": "./icons/file.svg" },
+"file_js": { "iconPath": "./icons/js.svg" },
+"file_ts": { "iconPath": "./icons/ts.svg" },
+"file_json": { "iconPath": "./icons/json.svg" },
+"file_md": { "iconPath": "./icons/md.svg" },
+"file_html": { "iconPath": "./icons/html.svg" },
+"file_css": { "iconPath": "./icons/css.svg" },
+"file_py": { "iconPath": "./icons/python.svg" },
+"file_java": { "iconPath": "./icons/java.svg" },
+"file_c": { "iconPath": "./icons/c.svg" },
+"file_cpp": { "iconPath": "./icons/cpp.svg" },
+"folder_default": { "iconPath": "./icons/folder.svg" },
+"folder_src": { "iconPath": "./icons/folder-src.svg" },
+"folder_dist": { "iconPath": "./icons/folder-dist.svg" }
+},
+"fileExtensions": {
+"js": "file_js",
+"ts": "file_ts",
+"json": "file_json",
+"md": "file_md",
+"html": "file_html",
+"htm": "file_html",
+"css": "file_css",
+"py": "file_py",
+"java": "file_java",
+"c": "file_c",
+"cpp": "file_cpp"
+},
+"fileNames": {
+"README.md": "file_md",
+"package.json": "file_json",
+"tsconfig.json": "file_json",
+"requirements.txt": "file_py"
+},
+"folder": "folder_default",
+"folderNames": {
+"src": "folder_src",
+"dist": "folder_dist",
+"build": "folder_dist"
+}
+}
