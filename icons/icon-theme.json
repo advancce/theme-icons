@@ -1,43 +1,65 @@
 {
-"iconDefinitions": {
-"file_default": { "iconPath": "./icons/file.svg" },
-"file_js": { "iconPath": "./icons/js.svg" },
-"file_ts": { "iconPath": "./icons/ts.svg" },
-"file_json": { "iconPath": "./icons/json.svg" },
-"file_md": { "iconPath": "./icons/md.svg" },
-"file_html": { "iconPath": "./icons/html.svg" },
-"file_css": { "iconPath": "./icons/css.svg" },
-"file_py": { "iconPath": "./icons/python.svg" },
-"file_java": { "iconPath": "./icons/java.svg" },
-"file_c": { "iconPath": "./icons/c.svg" },
-"file_cpp": { "iconPath": "./icons/cpp.svg" },
-"folder_default": { "iconPath": "./icons/folder.svg" },
-"folder_src": { "iconPath": "./icons/folder-src.svg" },
-"folder_dist": { "iconPath": "./icons/folder-dist.svg" }
-},
-"fileExtensions": {
-"js": "file_js",
-"ts": "file_ts",
-"json": "file_json",
-"md": "file_md",
-"html": "file_html",
-"htm": "file_html",
-"css": "file_css",
-"py": "file_py",
-"java": "file_java",
-"c": "file_c",
-"cpp": "file_cpp"
-},
-"fileNames": {
-"README.md": "file_md",
-"package.json": "file_json",
-"tsconfig.json": "file_json",
-"requirements.txt": "file_py"
-},
-"folder": "folder_default",
-"folderNames": {
-"src": "folder_src",
-"dist": "folder_dist",
-"build": "folder_dist"
-}
+  "iconDefinitions": {
+    "file_default": { "iconPath": "./icons/file.svg" },
+    "file_js": { "iconPath": "./icons/js.svg" },
+    "file_ts": { "iconPath": "./icons/ts.svg" },
+    "file_json": { "iconPath": "./icons/json.svg" },
+    "file_md": { "iconPath": "./icons/readme.svg" },
+    "file_html": { "iconPath": "./icons/html.svg" },
+    "file_css": { "iconPath": "./icons/css3.svg" },
+    "file_py": { "iconPath": "./icons/py.svg" },
+    "file_java": { "iconPath": "./icons/java.svg" },
+    "file_c": { "iconPath": "./icons/c.svg" },
+    "file_cpp": { "iconPath": "./icons/c.svg" },
+    "file_csharp": { "iconPath": "./icons/c_sharp.svg" },
+    "file_license": { "iconPath": "./icons/license.svg" },
+    "file_doc": { "iconPath": "./icons/doc.svg" },
+    "file_txt": { "iconPath": "./icons/txt.svg" },
+    "file_pdf": { "iconPath": "./icons/pdf.svg" },
+    "file_docker": { "iconPath": "./icons/docker.svg" },
+    "file_node": { "iconPath": "./icons/node-js.svg" },
+    "file_img": { "iconPath": "./icons/img.svg" },
+    "folder_default": { "iconPath": "./icons/folder.svg" },
+    "folder_database": { "iconPath": "./icons/database.svg" },
+    "folder_node": { "iconPath": "./icons/node-js.svg" }
+  },
+  "fileExtensions": {
+    "js": "file_js",
+    "ts": "file_ts",
+    "json": "file_json",
+    "md": "file_md",
+    "html": "file_html",
+    "htm": "file_html",
+    "css": "file_css",
+    "py": "file_py",
+    "java": "file_java",
+    "c": "file_c",
+    "cpp": "file_cpp",
+    "cs": "file_csharp",
+    "txt": "file_txt",
+    "pdf": "file_pdf",
+    "png": "file_img",
+    "jpg": "file_img",
+    "jpeg": "file_img",
+    "gif": "file_img",
+    "svg": "file_img",
+    "dockerfile": "dockerfile",
+    "readme" : "readme"
+  },
+  "fileNames": {
+    "README.md": "file_md",
+    "package.json": "file_json",
+    "tsconfig.json": "file_json",
+    "requirements.txt": "file_txt",
+    "LICENSE": "file_license",
+    "Dockerfile": "file_docker"
+  },
+  "folder": "folder_default",
+  "folderNames": {
+    "database": "folder_database",
+    "src": "folder_default",
+    "dist": "folder_default",
+    "build": "folder_default",
+    "node_modules": "folder_node"
+  }
 }
